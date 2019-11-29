@@ -1,0 +1,76 @@
+
+div {
+  height: 200px;
+  width: 50%;
+  background-color: powderblue;
+}
+
+ * {
+    box-sizing: border-box;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* headeri stiil */
+header {
+    background: rgba(208,228,245,0.3) url("https://defenders.org/sites/default/files/styles/meta_image/public/2019-04/grizzly_bear_sow_jim_peaco_nps_header.jpg?itok=vTdBffpn") repeat scroll 50% 50%;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+nav {
+    float: left;
+    width: 30%;
+    height: 300px;
+    background: #FED79B;
+    padding: 20px;
+    border-top: 7px solid #B0956C;
+    border-right: 7px solid #6E5D43;
+}
+/* stiil listi sees */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px;
+    border-top: 7px solid #B0956C;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* footeri stiil */
+footer {
+    background: #EBE4C7;
+    background: -moz-linear-gradient(left, #EBE4C7 0%, #8F7957 100%);
+    background: -webkit-linear-gradient(left, #EBE4C7 0%, #8F7957 100%);
+    background: linear-gradient(to right, #EBE4C7 0%, #8F7957 100%);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+blockquote {
+    height: 200px;
+    padding: 20px;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}

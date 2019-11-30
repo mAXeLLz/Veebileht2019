@@ -7,6 +7,8 @@ div {
 
  * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 
 }
 body {
@@ -19,11 +21,14 @@ header {
     text-align: center;
     font-size: 35px;
     color: white;
+    position: relative;
+    height: 43vh;
+
 }
-nav {
+.konteiner {
     float: left;
-    width: 30%;
-    height: 300px;
+    width: 15%;
+    height: 80vh;
     background: #FED79B;
     padding: 20px;
     border-top: 7px solid #B0956C;
@@ -39,9 +44,9 @@ nav ul {
 article {
     float: left;
     padding: 20px;
-    width: 70%;
+    width: 60%;
     background-color: #f1f1f1;
-    height: 300px;
+    height: 80vh;
     border-top: 7px solid #B0956C;
 }
 
@@ -67,10 +72,77 @@ footer {
     }
 }
 blockquote {
-    height: 200px;
+    height: 70vh;
     padding: 20px;
     box-shadow:
     inset 0 -3em 3em rgba(0,0,0,0.1),
     0 0  0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+iframe{
+    float: right;
+    width: 25%;
+    height: 80vh;
+}
+.heading{
+    margin-bottom: 10px;
+}
+.icons{
+    height: 40px;
+    width:40px;
+    margin: 0px 0px;
+}
+.ikoonid{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FED79B;
+
+}
+.navitem{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+.navitem:hover{
+    color: #f1f1f1;
+    
+}
+.lik{
+    margin: 10px 0px;
+}
+.bear{
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 20%;
+    position: absolute;
+}
+.vaheleht{
+    float: left;
+    padding: 20px;
+    width: 85%;
+    background-color: #f1f1f1;
+    height: 57vh;
+    border-top: 7px solid #B0956C;
+}
+.eraldi{
+
+}
+.tekst{
+    height: 40vh;
+    padding: 20px;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.konteiner2{
+    float: left;
+    width: 15%;
+    height: 57vh;
+    background: #FED79B;
+    padding: 20px;
+    border-top: 7px solid #B0956C;
+    border-right: 7px solid #6E5D43;
 }

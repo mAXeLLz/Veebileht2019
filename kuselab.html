@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Weebileht</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <link rel = "stylesheet"
+   type = "text/css"
+   href = "style.css" >
+
+</head>
+
+<body>
+    <header>
+        <h2> Näiteid karu elukohtadest </h2>
+    </header>
+
+	<section>
+        <nav>
+            <ul>
+                <li> <a href="file:///C:/Users/Joosep/Desktop/SE2019/Veebileht2019/index.html">Tagasi pealehele</a> </li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>Eelistused</h1>
+			<blockquote><q>Kõik karud, kes ei ela loomaaias, elavad metsas.
+			Nad eelistavad elada suurtes metsades, milles on tuule<br/> 
+			poolt mahalangetatuid puid ja milles leidub rabalaike. 
+			Linna ehk asustatud aladele karudel üldiselt asja ei ole,<br/> 
+			linnas on palju müra ja liiklust ning karudel ei ole
+			seal hea olla. Lisaks on linnades ka inimesed,<br/> 
+			kes on karude suurimad vaenlased.
+			Eestis on karu levinud peamiselt Mandri-Eestis,
+			välja arvatud Võru <br/> ja Valga maakonnas.
+			Enim karusid elab Virumaal ja Jõgevamaal..<br/>
+			<br/>
+			Karud elavad üksi, kindlustades territooriumi suuruse 73 kuni 414
+			ruutmeetrit <br/>(naised hõivavad palju vähem territooriumi kui mehed).
+			Iga karu territoorium on perimeetril tähistatud puude spetsiifiliste
+			lõhnade ja küünisemärkidega.</q></blockquote>
+        </article>
+    </section>
+<div id="map"></div>
+    <script> 
+      function initMap() { 
+        var uluru = {lat: 59.263709, lng: 25.557974} 
+        var map = new google.maps.Map(document.getElementById('map'), { 
+          zoom: 15, 
+          center: uluru 
+        }); 
+        var marker = new google.maps.Marker({ 
+          position: uluru, 
+          map: map 
+        }); 
+      } 
+    </script> 
+<script async defer 
+    src= 
+	"https://maps.googleapis.com/maps/api/js?key= 
+	AIzaSyB2bXKNDezDf6YNVc-SauobynNHPo4RJb8&callback=initMap"> 
+</script>
+
+</body>
+</html>

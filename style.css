@@ -20,7 +20,7 @@ header {
     padding: 30px;
     text-align: center;
     font-size: 35px;
-    color: white;
+    color: brown;
     position: relative;
     height: 43vh;
 
@@ -72,7 +72,7 @@ footer {
     }
 }
 blockquote {
-    height: 70vh;
+    height: 67vh;
     padding: 20px;
     box-shadow:
     inset 0 -3em 3em rgba(0,0,0,0.1),
@@ -84,8 +84,10 @@ iframe{
     width: 25%;
     height: 80vh;
 }
+
 .heading{
     margin-bottom: 10px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 .icons{
     height: 40px;

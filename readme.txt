@@ -1,0 +1,4 @@
+1. Meie veebilehelt leiate infot karude eluviisist, toitumisest ja huvitavaid fakte neist.
+2.Tiimi liikmeteks on: Max Frolov, Joosep Tavits,  Kaspar Saarem.
+3.Tiimisisene tööjaotus oli vastav: Max tegi algse lehe ja mõtles välja kujunduse, Kaspar tegeles vahelehtede koostamisega ja tekstiga, aitas natuke javascriptia, Joosep sidus vahelehed kokku,lisas (facebooki,instagrami,twitteri ikoonid) ja google mapsi.
+4.Alguses oli gitiga raskusi, et asjad sujuvalt tööle saada. Keeruline oli slaiderit veebilehel õiges kohas tööle saada aga lõppude lõpuks ei saanudki seda tööle, seega jäi panemata. Kõige keerulisem hetk oli ots lahti saada ja millegiga alustada, aga nii kui Max tegi esialgse töö ära hakkas meeskond tööle ja saime asjaga päris kiiresti valmis. Õppimise kindlasti giti paremini kasutama ja saime aimu rohkem kuidas meeskonnana projekti valmistamine käib.
